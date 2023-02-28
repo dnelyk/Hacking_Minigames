@@ -44,4 +44,4 @@ Every minigame has the same trigger, but you just replace one line, or you can s
 ***Beta, not recommended for use in a live server.*
 
 ## Issues:
-[Report issues](https://github.com/dnelyk/Hacking_Minigames/issues/new) on Github, if applicable, you may [Pull Request](https://github.com/dnelyk/Hacking_Minigames/compare) solutions that are tested.
+[Report issues](https://github.com/dnelyk/Hacking_Minigames/issues/new) on Github, if applicable, you may [Pull Request](https://github.com/dnelyk/Hacking_Minigames/compare) solutions that are properly tested.
