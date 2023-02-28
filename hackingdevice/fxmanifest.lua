@@ -1,4 +1,4 @@
--- Credits to: https://sharkiller.ddns.net/nopixel_minigame/hackingdevice/ for the Lights Out Game!
+-- Credits to: https://sharkiller.ddns.net/nopixel_minigame/hackingdevice/ for the Hacking Device Game!
 
 fx_version "cerulean"
 version "Beta"
