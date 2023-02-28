@@ -43,5 +43,8 @@ Every minigame has the same trigger, but you just replace one line, or you can s
         
 ***Beta, not recommended for use in a live server.*
 
+## Install: 
+*Installing is very simple.* Each folder is its own resource. So, just download the repository, select the minigames you wish to use and drag them into your standalone folder. Then, make sure you ensure the resources in your console, or put them in an already ensured folder.
+
 ## Issues:
 [Report issues](https://github.com/dnelyk/Hacking_Minigames/issues/new) on Github, if applicable, you may [Pull Request](https://github.com/dnelyk/Hacking_Minigames/compare) solutions that are properly tested.
