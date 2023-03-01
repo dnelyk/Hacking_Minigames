@@ -1,17 +1,21 @@
 local Failed = false
 local Success = false
+local TypesTable = {'numeric', 'alphabet', 'alphanumeric', 'greek', 'braille', 'runes', 'arabic'}
+
+---@param timer number || description: "Whole Number Between 3-6. It determines the size of the grid. Example: 4 = 4x4 grid."
+---@param characters string || description: "String. It determines the type of characters the puzzle will include, must be one of the following strings: {'numeric', 'alphabet', 'alphanumeric', 'greek', 'braille', 'runes', 'arabic'}, otherwise,  it will be random."
 
 local function StartHackingDevice(timer, characters)
     if not timer then
         timer = Config.HackingDeviceTimer
     end
 
-    if not characters then
+    if not characters or (not (TypesTable[characters]) and not characters == 'random')then
         characters = Config.HackingDeviceCharacters
     end
 
     if characters == 'random' then
-        local TypesTable = {'numeric', 'alphabet', 'alphanumeric', 'greek', 'braille', 'runes', 'arabic'}
+
         local randomint = math.random(#TypesTable)
         characters = TypesTable[randomint]
         if Config.Debug then

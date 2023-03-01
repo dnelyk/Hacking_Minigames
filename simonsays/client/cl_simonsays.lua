@@ -1,6 +1,9 @@
 local Failed = false
 local Success = false
 
+---@param buttonGrid number || description: "Whole Number Between 3-6. It determines the size of the grid. Example: 4 = 4x4 grid."
+---@param length number || description: "Whole Number. It determines the maximum amount of time someone has to complete the puzzle."
+
 local function StartSimonSays(buttonGrid, length)
     if not buttonGrid then
         buttonGrid = Config.DefaultGridSize

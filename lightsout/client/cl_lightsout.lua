@@ -1,6 +1,9 @@
 local Failed = false
 local Success = false
 
+---@param grid number || description: "Whole Number Between 3-6. It determines the size of the grid. Example: 4 = 4x4 grid."
+---@param maxClicks number || description: "Whole Number. It determines the maximum amount of times someone can click on the grid to solve."
+
 local function StartLightsOut(grid, maxClicks)
     if not grid then
         grid = Config.DefaultGridSize
