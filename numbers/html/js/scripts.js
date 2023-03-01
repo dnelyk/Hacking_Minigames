@@ -17,8 +17,6 @@ document.querySelector('.minigame .numbers').addEventListener('keydown', functio
 document.querySelector('#answer').addEventListener('keydown', function(e) {
     if (e.ctrlKey === true && e.key === 'v'){
         e.preventDefault();
-        // Send notification to client about Copy and Pasting data.
-        $.post('https://numbers/copypaste', JSON.stringify({}));
         return false;
     }
     if (e.key === 'Enter' && document.querySelector('.solution').offsetHeight === 0) {
